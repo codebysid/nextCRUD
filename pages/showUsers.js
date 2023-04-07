@@ -7,10 +7,12 @@ const showUsers = ({res}) => {
 }
 export default showUsers
 
+
+
 export async function getServerSideProps(){
   var res
   try{
-      const client=await MongoClient.connect("mongodb+srv://codebysidd:quAFzB3DITTw6kLg@cluster0.zn45ixq.mongodb.net/?retryWrites=true&w=majority")
+      const client=await MongoClient.connect("")
 
       const db=client.db()
       const collection=db.collection("crud")
