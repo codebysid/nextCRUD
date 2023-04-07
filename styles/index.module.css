@@ -1,0 +1,57 @@
+.formDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size:.7vw;
+}
+
+.genderDiv{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.checkboxDiv{
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+}
+
+.label{
+    font-size: 1vw;
+}
+
+.formDiv form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1vw;
+    font-size: 1vw;
+}
+.formDiv div> div{
+    background-color:#333333;
+    padding: .5vw;
+    border-radius: 1vw;
+    display: flex;
+    gap: .5vw;
+}
+
+.error{
+    font-style: italic;
+    color: red;
+    font-size: 0.7vw;
+    margin-top: 0.3vw;
+}
+
+.link{
+    font-size: 1.2vw;
+  padding: 0.5vw 1vw;
+  background-color: transparent;
+  border: 0.1vw solid #ececec;
+  transition: all .5s;
+}
+.link:hover{
+  background-color: #ececec;
+  color: #171717;
+}
